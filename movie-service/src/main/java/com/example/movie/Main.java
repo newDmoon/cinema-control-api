@@ -1,4 +1,4 @@
-package com.example.clicker;
+package com.example.movie;
 
 public class Main {
     public static void main(String[] args) {
