@@ -1,5 +1,4 @@
 package com.example.auth.dto;
 
-public class AuthResponse {
-    String token;
+public record AuthResponse (String accessToken, String refreshToken){
 }

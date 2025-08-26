@@ -1,7 +1,4 @@
 package com.example.auth.dto;
 
-public class RegisterRequest {
-    String name;
-    String email;
-    String password;
+public record RegisterRequest (String name, String email, String password) {
 }

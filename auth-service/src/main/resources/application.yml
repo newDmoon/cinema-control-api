@@ -10,7 +10,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     properties:
       hibernate:
         default_schema: auth
@@ -18,7 +18,7 @@ spring:
 
 
 jwt:
-  secret: super-secret-key-change-me
+  secret: super-secret-key-change-measdfadsfadskjfldfjg;adskgjladskgj;ladskgj;ldsfkgj;adskjg;asdgkads;gjaskl;dgasdadsgs
   access-token-expiration-minutes: 60
   refresh-token-expiration-days: 7
 
